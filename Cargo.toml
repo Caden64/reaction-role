@@ -1,0 +1,9 @@
+[package]
+name = "reaction-role"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+poise = "0.6.1"
+dotenv = "0.15.0"
+tokio = { version = "1.39.3", features = ["rt-multi-thread"] }
